@@ -1,4 +1,4 @@
-package me.whizlabs;
+package me.whizlabs.javaBasics;
 
 /**
  * *******************************************************************************************************************
@@ -69,7 +69,7 @@ package me.whizlabs;
  *  }
  *
  *          ******** NB: Capitalized parts of the class example are required    ********
- * */
+ * *******************************************************************************************************************/
 
 public class JavaClassStructure {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package me.whizlabs;
+package me.whizlabs.javaBasics;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,8 +36,7 @@ import java.util.List;
  * ✓    Examples
  *           import java.util.*;
  * ✓    The java.lang package is automatically imported
- * *******************************************************************************************************************
- * */
+ * *******************************************************************************************************************/
 
 public class ImportJavaPackages {
     public static void main(String[] args) {

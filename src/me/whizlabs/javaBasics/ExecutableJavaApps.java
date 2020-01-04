@@ -1,4 +1,4 @@
-package me.whizlabs;
+package me.whizlabs.javaBasics;
 
 /**
  * *******************************************************************************************************************
@@ -26,7 +26,7 @@ package me.whizlabs;
  * 2)   Compile the source file into a Java class file using a Java compiler
  * 3)   Execute the application using a Java application launcher tool
  *
- * */
+ * *******************************************************************************************************************/
 
 public class ExecutableJavaApps {
     public static void main(String[] args) {
