@@ -7,8 +7,8 @@ package me.whizlabs.javaDataTypes;
  * 1)   DECLARE AND INITIALIZE VARIABLES (INCLUDING CASTING OF PRIMITIVE DATA TYPES)
  * 2)   Differentiate between object reference and primitive variables
  * 3)   Know how to read and write to object fields
- * 4)   Explain an object Lifecycle
- * 5)   Develop code that uses wrapper classes
+ * 4)   Explain an object lifecycle (creation, "Dereference by reassignment" and garbage collection)
+ * 5)   Develop code that uses wrapper classes such as boolean, double and integer
  * *******************************************************************************************************************
  *
  * **********************************    CLASS-LEVEL VARIABLES      ***********************************

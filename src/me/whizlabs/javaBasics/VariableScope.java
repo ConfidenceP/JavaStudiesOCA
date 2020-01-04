@@ -40,7 +40,7 @@ package me.whizlabs.javaBasics;
  * ##################################################################################################
  *
  * class MyClass {
- *     int number1 = 0; // This variable, number1, is a class-level scoped variable
+ *     int number1 = 0; // This variable, number1, is a class-level scoped variable with NO modifier
  *     void myMethod() {
  *         int number2 = 0;
  *         {
@@ -92,6 +92,8 @@ public class VariableScope {
 
     protected static int number1 = 0; /** number1 IS A CLASS-LEVEL SCOPE VARIABLE **/
 
+    private static int check = 26;
+
     public static int testMethod() {
         int testResult = getNumber1(); /** testResult IS A METHOD-LEVEL SCOPE VARIABLE (AKA LOCAL VARIABLE) **/
         System.out.println("testResult = " + testResult);
@@ -106,14 +108,16 @@ public class VariableScope {
             doSomething = 0;
             String blockVariable = "I'm the block level variable"; /** blockVariable IS A BLOCK-LEVEL SCOPE VARIABLE **/
             int numberBlock = 16;
+            int check = 52;
             System.out.println("++doSomething = " + ++doSomething);
             System.out.println("numberBlock = " + numberBlock);
             System.out.println("blockVariable = " + blockVariable);
             System.out.println("number1 = " + number1);
+            System.out.println("method check = " + check);
         }
         System.out.println("++doSomething again = " + ++doSomething);
         System.out.println("testMethod = " + testMethod());
-
+        System.out.println("class check = " + check);
     }
 
     public static int getNumber1() {
