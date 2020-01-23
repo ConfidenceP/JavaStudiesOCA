@@ -31,13 +31,13 @@ package me.whizlabs.operatorsAndDecisionConstructs;
  *
  *  **********************************    OVERRIDING OPERATOR PRECEDENCE      ****************************
  *
- *  ✓    Operator precedence may be overridden using parentheses
- *  ✓    Example 1:
+ *  ✓   Operator precedence may be overridden using parentheses
+ *  ✓   Example 1:
  *          int integer1 = 1 + 2 * 3;
  *          int integer2 = (1 + 2) * 3;
  *          System.out.println(integer1); // 7
  *          System.out.println(integer2); // 9
- *  ✓    Example 2:
+ *  ✓   Example 2:
  *          boolean boolean1 = true || true && false;
  *          boolean boolean2 = (true || true) && false;
  *          System.out.println(boolean1); // true
