@@ -72,6 +72,7 @@ public class stringsObjectsEquality {
         compareObjectsUsingOperator();
         compareObjectsUsingEquals();
         compareStringsUsingEquals();
+        setterReturnTwo();
     }
 
     public static void compareObjectsUsingOperator() {
@@ -88,6 +89,8 @@ public class stringsObjectsEquality {
         Data data1 = new Data(0);
         Data data2 = new Data(0);
 
+        Data data3 = new Data(6.7f);
+
         System.out.println(data1.equals(data2));
     }
 
@@ -99,5 +102,13 @@ public class stringsObjectsEquality {
 
         System.out.println(string1.equals(string2));
         System.out.println(string2.equals(string3));
+    }
+
+    public static void setterReturnTwo() {
+        Data checkTwo = new Data();
+
+        checkTwo.setReturningTwo(5);
+        System.out.println(checkTwo.getReturningTwo() + " returned!!!");
+        System.out.println(checkTwo.justGetTwo() + " I got you!!!");
     }
 }
