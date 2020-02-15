@@ -42,5 +42,5 @@ package me.whizlabs.operatorsAndDecisionConstructs;
  *
  * *******************************************************************************************************************/
 
-public class ifElseTenary {
+public class IfElseTenary {
 }

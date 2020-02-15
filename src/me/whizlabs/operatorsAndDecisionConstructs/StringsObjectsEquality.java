@@ -1,5 +1,7 @@
 package me.whizlabs.operatorsAndDecisionConstructs;
 
+import me.whizlabs.javaDataTypes.WrapperClasses;
+
 /**
  * *******************************************************************************************************************
  *
@@ -66,13 +68,15 @@ package me.whizlabs.operatorsAndDecisionConstructs;
  *
  * *******************************************************************************************************************/
 
-public class stringsObjectsEquality {
+public class StringsObjectsEquality extends WrapperClasses {
 
     public static void main(String[] args) {
         compareObjectsUsingOperator();
         compareObjectsUsingEquals();
         compareStringsUsingEquals();
         setterReturnTwo();
+//        question1();
+        floatingPointExample();
     }
 
     public static void compareObjectsUsingOperator() {

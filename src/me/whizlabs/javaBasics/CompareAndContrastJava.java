@@ -1,5 +1,7 @@
 package me.whizlabs.javaBasics;
 
+import me.whizlabs.operatorsAndDecisionConstructs.StringsObjectsEquality;
+
 /**
  * *******************************************************************************************************************
  *
@@ -84,5 +86,9 @@ package me.whizlabs.javaBasics;
  * *******************************************************************************************************************/
 
 
-public class CompareAndContrastJava {
+public class CompareAndContrastJava extends StringsObjectsEquality {
+
+    public static void main(String[] args) {
+        setterReturnTwo(); /** INHERITING METHOD FROM CLASS IN ANOTHER MODULE BUT SAME PACKAGE **/
+    }
 }

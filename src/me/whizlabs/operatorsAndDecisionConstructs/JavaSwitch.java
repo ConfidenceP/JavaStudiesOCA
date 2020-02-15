@@ -37,5 +37,5 @@ package me.whizlabs.operatorsAndDecisionConstructs;
  *
  * *******************************************************************************************************************/
 
-public class javaSwitch {
+public class JavaSwitch {
 }
