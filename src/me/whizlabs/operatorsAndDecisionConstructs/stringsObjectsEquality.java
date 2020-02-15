@@ -67,4 +67,37 @@ package me.whizlabs.operatorsAndDecisionConstructs;
  * *******************************************************************************************************************/
 
 public class stringsObjectsEquality {
+
+    public static void main(String[] args) {
+        compareObjectsUsingOperator();
+        compareObjectsUsingEquals();
+        compareStringsUsingEquals();
+    }
+
+    public static void compareObjectsUsingOperator() {
+
+        String string1 = new String("Whizlabs");
+        String string2 = "Whizlabs";
+        String string3 = "Whizlabs";
+
+        System.out.println(string1 == string2);
+        System.out.println(string2 == string3);
+    }
+
+    public static void compareObjectsUsingEquals() {
+        Data data1 = new Data(0);
+        Data data2 = new Data(0);
+
+        System.out.println(data1.equals(data2));
+    }
+
+    public static void compareStringsUsingEquals() {
+
+        String string1 = new String("Whizlabs");
+        String string2 = new String("Whizlabs");
+        String string3 = "Whizlabs";
+
+        System.out.println(string1.equals(string2));
+        System.out.println(string2.equals(string3));
+    }
 }

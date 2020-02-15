@@ -41,4 +41,22 @@ package me.whizlabs.javaDataTypes;
 
 
 public class DifferentiateObjectPrimitive {
+    public int value;
+
+    public static void main(String[] args) {
+
+        int int1 = 0;
+        int int2 = 0;
+
+        DifferentiateObjectPrimitive data1 = new DifferentiateObjectPrimitive();
+        DifferentiateObjectPrimitive data2 = new DifferentiateObjectPrimitive();
+
+        data1.value = 0;
+        data2.value = 0;
+
+        System.out.println(int1 == int2); // Literal value comparison (true)
+        System.out.println(data1 == data2); // Object address comparison (false)
+    }
+
+
 }
